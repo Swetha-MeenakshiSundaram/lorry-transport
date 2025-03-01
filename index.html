@@ -5,31 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lorry Transport Services | Reliable & Fast</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: #1e3a56;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        h1, h2 {
+            color: #1e3a56;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .lorry-image img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 8px;
+        }
+        .info {
+            flex: 1;
+            min-width: 300px;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #1e3a56;
+            color: white;
+            margin-top: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "✔ ";
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .services, .why-choose-us {
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Lorry Transport Services</h1>
+        <h1>Lorry Transport Services</h1>
         <p>Your trusted partner in safe and timely deliveries.</p>
     </header>
     
-    <section class="container">
+    <section class="container details">
+        <div class="lorry-image">
+            <img src="lorry.jpg" alt="Lorry Image">
+        </div>
         <div class="info">
             <h2>About Our Services</h2>
-            <p>At <strong>Lorry Transport Services</strong>, we provide efficient and secure transportation of goods across the country. With a fleet of well-maintained lorries and experienced drivers, we guarantee timely and safe deliveries for all your business needs.</p>
+            <p>We provide efficient and secure transportation of goods across the country. With a fleet of well-maintained lorries and experienced drivers, we guarantee timely and safe deliveries for all your business needs.</p>
         </div>
     </section>
-    
+
     <section class="container details">
-        <div class="info contact">
+        <div class="info">
             <h2>Contact Details</h2>
             <p><strong>Address:</strong> 123, Main Road, Chennai, India</p>
             <p><strong>Phone:</strong> +91 98765 43210</p>
             <p><strong>Email:</strong> contact@lorryservice.com</p>
             <p><strong>Working Hours:</strong> Mon-Sat, 8 AM - 8 PM</p>
-        </div>
-        
-        <div class="lorry-image">
-            <img src="lorry.jpg" alt="Lorry Image">
         </div>
     </section>
 
